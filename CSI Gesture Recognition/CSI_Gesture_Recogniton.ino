@@ -3,8 +3,8 @@
 #include <esp_wifi.h>
 
 // --- Configuration ---
-const char* ssid = "POCO X6 Pro 5G";       // Change this!
-const char* password = "Yashkumar8481"; // Change this!
+const char* ssid = "WIFI NAME";       // Change this!
+const char* password = "PASSWORD"; // Change this!
 
 WiFiUDP udp;
 IPAddress gateway;
