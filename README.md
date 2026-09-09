@@ -1,10 +1,10 @@
-# ESP32 & IoT Projects Repository
+﻿# ESP32 & IoT Projects Repository
 
 A collection of embedded systems, ESP32, and IoT projects spanning wireless communication, security, sensor telemetry, computer vision, and machine learning.
 
 ---
 
-## ?? Projects Included
+## 📂 Projects Included
 
 1. **[CSI Gesture Recognition](./CSI%20Gesture%20Recognition/)**
    * Wi-Fi Channel State Information (CSI) extraction for contactless gesture recognition.
@@ -20,3 +20,5 @@ A collection of embedded systems, ESP32, and IoT projects spanning wireless comm
    * Vision-based 4-way intersection traffic density monitoring with background subtraction and ThingSpeak telemetry.
 7. **[IoT Neural Network Classification (ThingSpeak)](./IoT%20Neural%20Network%20Classification%20(ThingSpeak)/)**
    * Distributed edge-to-cloud machine learning pipeline classifying Iris features using MATLAB Deep Learning & ThingSpeak Analysis.
+8. **[ESP32 OpenWeatherMap to ThingSpeak Gateway](./ESP32%20OpenWeatherMap%20to%20ThingSpeak%20Gateway/)**
+   * Cloud-to-cloud weather telemetry bridge fetching OpenWeatherMap REST API data and publishing to ThingSpeak via Arduino_JSON.
