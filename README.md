@@ -24,3 +24,5 @@ A collection of embedded systems, ESP32, and IoT projects spanning wireless comm
    * Cloud-to-cloud weather telemetry bridge fetching OpenWeatherMap REST API data and publishing to ThingSpeak via Arduino_JSON.
 9. **[IoT Smart Alert System (ThingSpeak + IFTTT)](./IoT%20Smart%20Alert%20System%20(ThingSpeak%20+%20IFTTT)/)**
    * Automated cloud notification bridge analyzing ThingSpeak environmental telemetry and triggering push notifications via IFTTT Webhooks.
+10. **[ESP32 Azure IoT Hub Telemetry](./ESP32%20Azure%20IoT%20Hub%20Telemetry/)**
+    * Direct enterprise IoT telemetry streaming from ESP32 + DHT11 to Microsoft Azure IoT Hub over MQTT.
