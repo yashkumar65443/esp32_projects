@@ -22,3 +22,5 @@ A collection of embedded systems, ESP32, and IoT projects spanning wireless comm
    * Distributed edge-to-cloud machine learning pipeline classifying Iris features using MATLAB Deep Learning & ThingSpeak Analysis.
 8. **[ESP32 OpenWeatherMap to ThingSpeak Gateway](./ESP32%20OpenWeatherMap%20to%20ThingSpeak%20Gateway/)**
    * Cloud-to-cloud weather telemetry bridge fetching OpenWeatherMap REST API data and publishing to ThingSpeak via Arduino_JSON.
+9. **[IoT Smart Alert System (ThingSpeak + IFTTT)](./IoT%20Smart%20Alert%20System%20(ThingSpeak%20+%20IFTTT)/)**
+   * Automated cloud notification bridge analyzing ThingSpeak environmental telemetry and triggering push notifications via IFTTT Webhooks.
