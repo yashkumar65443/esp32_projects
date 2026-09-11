@@ -4,6 +4,13 @@ An enterprise IoT telemetry application connecting an **ESP32** microcontroller 
 
 ---
 
+## 📂 Included Sketches
+
+* **`DAY12AZURE1/DAY12AZURE1.ino`**: Day 12 baseline implementation.
+* **`DAY15/DAY15.ino`**: Day 15 version with updated device IDs and parameters.
+
+---
+
 ## 📌 Architecture
 
 ```text
@@ -25,7 +32,7 @@ An enterprise IoT telemetry application connecting an **ESP32** microcontroller 
 Telemetry packets are formatted as JSON objects:
 ```json
 {
-  "deviceId": "ESP32DEVICELIVE",
+  "deviceId": "YOUR_DEVICE_ID",
   "messageId": 1,
   "Temperature": 27.8,
   "Humidity": 62.0
@@ -59,14 +66,14 @@ Install the following libraries via the Arduino Library Manager:
 ### 1. Register Device in Azure IoT Hub
 1. Log in to the [Azure Portal](https://portal.azure.com).
 2. Navigate to your **IoT Hub** $\rightarrow$ **Device management** $\rightarrow$ **Devices**.
-3. Click **+ Add Device**, specify a `Device ID` (e.g., `ESP32DEVICELIVE`), and click **Save**.
+3. Click **+ Add Device**, specify a `Device ID`, and click **Save**.
 4. Click on the created device and copy the **Primary Connection String**:
    ```text
    HostName=<YOUR_HUB>.azure-devices.net;DeviceId=<YOUR_DEVICE>;SharedAccessKey=<YOUR_KEY>=
    ```
 
 ### 2. Configure Sketch
-Open `DAY12AZURE1/DAY12AZURE1.ino` and replace the credentials:
+Open either `DAY12AZURE1/DAY12AZURE1.ino` or `DAY15/DAY15.ino` and replace the credentials:
 ```cpp
 // Wi-Fi Credentials
 const char* ssid = "YOUR_WIFI_SSID";
