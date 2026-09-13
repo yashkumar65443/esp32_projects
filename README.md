@@ -36,3 +36,5 @@ A collection of embedded systems, ESP32, and IoT projects spanning wireless comm
     * Asynchronous peer-to-peer serial communication implementing delimiter-based packet framing over wired, HC-12 RF, or Bluetooth links.
 15. **[ESP32 IoT Predictive Maintenance System](./ESP32%20IoT%20Predictive%20Maintenance%20System/)**
     * Industrial machine health monitoring integrating ESP32 vibration window sampling with a cloud Radial Basis Function (RBF) neural network and IFTTT alerts.
+16. **[ESP32 AWS IoT Core Telemetry (SPIFFS mTLS)](./ESP32%20AWS%20IoT%20Core%20Telemetry%20(SPIFFS%20mTLS)/)**
+    * Secure AWS IoT Core telemetry over encrypted MQTT (Port 8883) loading X.509 device certificates and private keys from the onboard SPIFFS filesystem.
