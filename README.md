@@ -28,3 +28,5 @@ A collection of embedded systems, ESP32, and IoT projects spanning wireless comm
     * Direct enterprise IoT telemetry streaming from ESP32 + DHT11 to Microsoft Azure IoT Hub over MQTT.
 11. **[ESP32 Blynk 2.0 Cloud Controller](./ESP32%20Blynk%202.0%20Cloud%20Controller/)**
     * Bidirectional smart IoT controller connecting ESP32 to Blynk 2.0 (Blynk.Cloud) with virtual pins, dynamic telemetry, and app dashboard control.
+12. **[ESP32 IFTTT Email Alert & Excel Logger](./ESP32%20IFTTT%20Email%20Alert%20&%20Excel%20Logger/)**
+    * Automated environmental logger and threshold alert system streaming DHT11 telemetry to Google Sheets / Excel Online and Gmail via IFTTT Webhooks.
