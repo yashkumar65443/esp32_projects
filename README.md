@@ -42,4 +42,7 @@ A collection of embedded systems, ESP32, and IoT projects spanning wireless comm
     * Encrypted mutual TLS (mTLS) MQTT telemetry on port 8883 storing X.509 device certificates, RSA private keys, and Amazon Root CA directly in ESP32 Flash memory (`PROGMEM`) without SPIFFS.
 18. **[ESP32 AWS IoT Core HTTPS REST Telemetry (PROGMEM mTLS)](./ESP32%20AWS%20IoT%20Core%20HTTPS%20REST%20Telemetry%20(PROGMEM%20mTLS)/)**
     * Certificate-based HTTPS REST publisher streaming JSON payloads to AWS IoT topic endpoints on port 8443 using raw HTTP POST requests without an MQTT broker client library.
+19. **[ESP32 AWS IoT Analytics Streamer (PROGMEM mTLS)](./ESP32%20AWS%20IoT%20Analytics%20Streamer%20(PROGMEM%20mTLS)/)**
+    * Structured telemetry pipeline streaming sequenced JSON records (`DeviceID`, `temperature`, `humidity`) to AWS IoT Analytics and Amazon QuickSight over mTLS (Port 8883).
+
 
