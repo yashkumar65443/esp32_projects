@@ -1,0 +1,23 @@
+# Arduino and PlatformIO build output
+.pio/
+.vscode/.browse.c_cpp.db*
+build/
+*.elf
+*.bin
+*.hex
+
+# Local secrets and device credentials
+.env
+secrets.h
+credentials.h
+wifi_config.h
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+
+# Operating system noise
+.DS_Store
+Thumbs.db
+
