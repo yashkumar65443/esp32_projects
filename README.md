@@ -30,3 +30,5 @@ A collection of embedded systems, ESP32, and IoT projects spanning wireless comm
     * Bidirectional smart IoT controller connecting ESP32 to Blynk 2.0 (Blynk.Cloud) with virtual pins, dynamic telemetry, and app dashboard control.
 12. **[ESP32 IFTTT Email Alert & Excel Logger](./ESP32%20IFTTT%20Email%20Alert%20&%20Excel%20Logger/)**
     * Automated environmental logger and threshold alert system streaming DHT11 telemetry to Google Sheets / Excel Online and Gmail via IFTTT Webhooks.
+13. **[ESP32-CAM Blynk Photo Capture](./ESP32-CAM%20Blynk%20Photo%20Capture/)**
+    * Smart camera node utilizing AI-Thinker ESP32-CAM (OV2640), embedded HTTP streaming server, flash illumination, and snapshot display on Blynk mobile app.
