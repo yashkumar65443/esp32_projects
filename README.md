@@ -1,4 +1,4 @@
-﻿# ESP32 & IoT Projects Repository
+# ESP32 & IoT Projects Repository
 
 A collection of embedded systems, ESP32, and IoT projects spanning wireless communication, security, sensor telemetry, computer vision, and machine learning.
 
@@ -38,3 +38,8 @@ A collection of embedded systems, ESP32, and IoT projects spanning wireless comm
     * Industrial machine health monitoring integrating ESP32 vibration window sampling with a cloud Radial Basis Function (RBF) neural network and IFTTT alerts.
 16. **[ESP32 AWS IoT Core Telemetry (SPIFFS mTLS)](./ESP32%20AWS%20IoT%20Core%20Telemetry%20(SPIFFS%20mTLS)/)**
     * Secure AWS IoT Core telemetry over encrypted MQTT (Port 8883) loading X.509 device certificates and private keys from the onboard SPIFFS filesystem.
+17. **[ESP32 AWS IoT Core MQTT Telemetry (PROGMEM mTLS)](./ESP32%20AWS%20IoT%20Core%20MQTT%20Telemetry%20(PROGMEM%20mTLS)/)**
+    * Encrypted mutual TLS (mTLS) MQTT telemetry on port 8883 storing X.509 device certificates, RSA private keys, and Amazon Root CA directly in ESP32 Flash memory (`PROGMEM`) without SPIFFS.
+18. **[ESP32 AWS IoT Core HTTPS REST Telemetry (PROGMEM mTLS)](./ESP32%20AWS%20IoT%20Core%20HTTPS%20REST%20Telemetry%20(PROGMEM%20mTLS)/)**
+    * Certificate-based HTTPS REST publisher streaming JSON payloads to AWS IoT topic endpoints on port 8443 using raw HTTP POST requests without an MQTT broker client library.
+
