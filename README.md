@@ -26,3 +26,5 @@ A collection of embedded systems, ESP32, and IoT projects spanning wireless comm
    * Automated cloud notification bridge analyzing ThingSpeak environmental telemetry and triggering push notifications via IFTTT Webhooks.
 10. **[ESP32 Azure IoT Hub Telemetry](./ESP32%20Azure%20IoT%20Hub%20Telemetry/)**
     * Direct enterprise IoT telemetry streaming from ESP32 + DHT11 to Microsoft Azure IoT Hub over MQTT.
+11. **[ESP32 Blynk 2.0 Cloud Controller](./ESP32%20Blynk%202.0%20Cloud%20Controller/)**
+    * Bidirectional smart IoT controller connecting ESP32 to Blynk 2.0 (Blynk.Cloud) with virtual pins, dynamic telemetry, and app dashboard control.
