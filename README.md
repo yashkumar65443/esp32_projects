@@ -34,3 +34,5 @@ A collection of embedded systems, ESP32, and IoT projects spanning wireless comm
     * Smart camera node utilizing AI-Thinker ESP32-CAM (OV2640), embedded HTTP streaming server, flash illumination, and snapshot display on Blynk mobile app.
 14. **[ESP32 Serial UART Transmitter & Receiver](./ESP32%20Serial%20UART%20Transmitter%20&%20Receiver/)**
     * Asynchronous peer-to-peer serial communication implementing delimiter-based packet framing over wired, HC-12 RF, or Bluetooth links.
+15. **[ESP32 IoT Predictive Maintenance System](./ESP32%20IoT%20Predictive%20Maintenance%20System/)**
+    * Industrial machine health monitoring integrating ESP32 vibration window sampling with a cloud Radial Basis Function (RBF) neural network and IFTTT alerts.
