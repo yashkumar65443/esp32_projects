@@ -32,3 +32,5 @@ A collection of embedded systems, ESP32, and IoT projects spanning wireless comm
     * Automated environmental logger and threshold alert system streaming DHT11 telemetry to Google Sheets / Excel Online and Gmail via IFTTT Webhooks.
 13. **[ESP32-CAM Blynk Photo Capture](./ESP32-CAM%20Blynk%20Photo%20Capture/)**
     * Smart camera node utilizing AI-Thinker ESP32-CAM (OV2640), embedded HTTP streaming server, flash illumination, and snapshot display on Blynk mobile app.
+14. **[ESP32 Serial UART Transmitter & Receiver](./ESP32%20Serial%20UART%20Transmitter%20&%20Receiver/)**
+    * Asynchronous peer-to-peer serial communication implementing delimiter-based packet framing over wired, HC-12 RF, or Bluetooth links.
